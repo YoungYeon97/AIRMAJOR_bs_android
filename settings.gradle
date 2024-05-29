@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "AIRMAJOR_bs_android"
+rootProject.name = "bsHandax"
 include ':app'
