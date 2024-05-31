@@ -23,7 +23,7 @@ import android.widget.LinearLayout;
 public final class Dialog_item_spec extends Dialog {
 	private Context mContext;
 
-	//private String TAG = "Dialog_item_spec";
+	//private String TAG = "Dialog_item_spec"; 
 	Dialog_Line_ListView listView;
 	Dialog_Line_ListAdapter adapter;
 

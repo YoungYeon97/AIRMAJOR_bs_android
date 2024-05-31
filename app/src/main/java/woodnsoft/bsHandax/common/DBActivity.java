@@ -36,8 +36,10 @@ public class DBActivity extends BaseActivity implements DatabaseAdapterEvent {
 		DBH.dbFile = "bsHandax2.db";                         //DB 파일명
 		DBH.dbPathFile = DBH.dbPath + File.separator + DBH.dbFile;  //DB 설치경로 + DB 파일명
 
+		Log.i("TEST", "dbPathFile = " + DBH.dbPathFile);
+
 //		DBH.DB = openOrCreateDatabase(DBH.dbPathFile, MODE_WORLD_WRITEABLE, null);
-		DBH.DB = openOrCreateDatabase(DBH.dbPathFile, Context.MODE_PRIVATE, null);
+		DBH.DB = openOrCreateDatabase(DBH.dbPathFile, MODE_PRIVATE, null);
 
 		if(DBH.DB == null) DBH.openDatabase();
 

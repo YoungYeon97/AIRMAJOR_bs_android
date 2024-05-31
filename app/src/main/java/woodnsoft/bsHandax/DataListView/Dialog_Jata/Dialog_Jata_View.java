@@ -34,4 +34,7 @@ public class Dialog_Jata_View extends LinearLayout  {
 			throw new IllegalArgumentException();
 		}
 	}
+
+
+
 }

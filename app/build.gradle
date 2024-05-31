@@ -1,19 +1,17 @@
-plugins {
-    alias(libs.plugins.androidApplication)
-}
+apply plugin: 'com.android.application'
 
 android {
-    namespace 'com.woodnsoft.bshandax'
-    compileSdk 34
-
-    useLibrary 'org.apache.http.legacy'
+    namespace 'woodnsoft.bsHandax'
+    compileSdkVersion 33
+    buildToolsVersion "33.0.0"
 
     defaultConfig {
-        applicationId "com.woodnsoft.bshandax"
-        minSdk 19
-        targetSdk 34
+        applicationId "woodnsoft.bsHandax"
+        minSdkVersion 21
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
+        useLibrary 'org.apache.http.legacy'
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -24,17 +22,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
 }
 
 dependencies {
-    implementation 'org.apache.httpcomponents:httpclient-android:4.3.5.1'
-    implementation libs.appcompat
-    implementation libs.material
-    testImplementation libs.junit
-    androidTestImplementation libs.ext.junit
-    androidTestImplementation libs.espresso.core
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }

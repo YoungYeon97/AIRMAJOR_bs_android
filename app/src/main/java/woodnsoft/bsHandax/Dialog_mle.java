@@ -12,7 +12,7 @@ import woodnsoft.bsHandax2.R;
 
 public final class Dialog_mle extends Dialog {
 
-	//private String TAG = "Dialog_mle";
+	//private String TAG = "Dialog_mle"; 
 
 	EditText iet;
 	TextView itv;

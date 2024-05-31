@@ -23,7 +23,7 @@ import android.widget.LinearLayout;
 public final class Dialog_Maker extends Dialog {
 	private Context mContext;
 
-	//private String TAG = "Dialog_Maker";
+	//private String TAG = "Dialog_Maker"; 
 	Dialog_Maker_ListView listView;
 	Dialog_Maker_ListAdapter adapter;
 

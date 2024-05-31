@@ -34,4 +34,7 @@ public class Dialog_Line_View extends LinearLayout  {
 			throw new IllegalArgumentException();
 		}
 	}
+
+
+
 }

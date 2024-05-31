@@ -11,7 +11,7 @@ import woodnsoft.bsHandax2.R;
 
 public final class Dialog_seri_appr_chk extends Dialog {
 
-	//private String TAG = "Dialog_seri_appr_chk";
+	//private String TAG = "Dialog_seri_appr_chk"; 
 
 	EditText iet_user_emp_text;
 
@@ -81,7 +81,7 @@ public final class Dialog_seri_appr_chk extends Dialog {
 
 //   	if (Util.f_isnull(ls_user_emp_text)) {
 //   		Util.f_dialog(Dialog_seri_appr_chk.this, "");
-//   		return
+//   		return 
 //   	}
 
 		return ls_user_emp_text ;

@@ -18,7 +18,7 @@ import android.widget.LinearLayout;
 public final class Dialog_Jata extends Dialog {
 	private Context mContext;
 
-	//private String TAG = "Dialog_Jata";
+	//private String TAG = "Dialog_Jata"; 
 	Dialog_Jata_ListView listView;
 	Dialog_Jata_ListAdapter adapter;
 

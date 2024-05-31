@@ -60,6 +60,4 @@ public class DataGet_Insp_View extends LinearLayout  {
         }
 
     }
-
-
 }

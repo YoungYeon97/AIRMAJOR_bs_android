@@ -35,7 +35,7 @@ import android.widget.Toast;
 
 public class Insp_Search extends DBActivity implements OnClickListener {
 
-	//private static final String TAG = "Insp_Search";
+	//private static final String TAG = "Insp_Search"; 
 	Insp_Search_LIstView listView;
 	Insp_Search_ListAdapter adapter;
 

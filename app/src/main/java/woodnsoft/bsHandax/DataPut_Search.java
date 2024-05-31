@@ -30,7 +30,7 @@ import android.widget.Toast;
 
 public class DataPut_Search extends DBActivity implements OnClickListener {
 
-	//private static final String TAG = "DataPut_Search";
+	//private static final String TAG = "DataPut_Search"; 
 	Insp_Search_LIstView listView;
 	Insp_Search_ListAdapter adapter;
 
