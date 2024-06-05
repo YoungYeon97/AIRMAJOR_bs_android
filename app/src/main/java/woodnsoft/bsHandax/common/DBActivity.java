@@ -33,6 +33,7 @@ public class DBActivity extends BaseActivity implements DatabaseAdapterEvent {
 		File fsdcard = Environment.getExternalStorageDirectory();  // SD 카드 경로
 		File fdbpath = new File(fsdcard.getAbsolutePath() + File.separator + "WoodnSoft" + File.separator + "bsHandax");
 		if (!fdbpath.exists()){
+			Log.i(TAG, "fsdcard path = " + fsdcard.getAbsolutePath());
 			Log.i(TAG,"Create Db directory : " + fdbpath.getAbsolutePath());
 			if (fdbpath.mkdirs()) {
 				Log.i(TAG, "OK");
@@ -49,6 +50,7 @@ public class DBActivity extends BaseActivity implements DatabaseAdapterEvent {
 		Log.i("TEST", "dbPathFile = " + DBH.dbPathFile);
 
 		try {
+			Log.i(TAG, "in try....................");
 			DBH.DB = openOrCreateDatabase(DBH.dbPathFile, MODE_PRIVATE, null);
 		} catch (Exception e) {
 			Log.e(TAG, "데이터베이스 열기 실패: " + e.getMessage());
