@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "woodnsoft.bsHandax2.app-mergeReleaseResources-2:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\gradle\\gradle-8.7\\caches\\transforms-3\\c3d7093a294e7c8a8be629c6d7fcff32\\transformed\\support-compat-28.0.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\gradle\\gradle-8.7\\caches\\transforms-3\\2d0b258ec70e821039869074e1bb6f44\\transformed\\appcompat-v7-28.0.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}
