@@ -7,7 +7,7 @@ android {
     compileSdkVersion 30  // 사용 중인 SDK 버전에 맞게 변경
     defaultConfig {
         applicationId "woodnsoft.bsHandax2"  // 실제 패키지 이름으로 변경
-        minSdkVersion 8
+        minSdkVersion 14
         targetSdkVersion 30
         versionCode 1
         versionName "2.0"
